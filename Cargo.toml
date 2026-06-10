@@ -1,0 +1,15 @@
+[package]
+name = "hypervisor-engine"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sorabbyngo OS Team"]
+description = "Type-1 hypervisor for Sorabbyngo OS"
+
+[dependencies]
+anyhow = "1"
+thiserror = "1"
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+nix = "0.27"
+libc = "0.2"
